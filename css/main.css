@@ -1,5 +1,8 @@
 html {
   font-family: Georgia;
+}
+
+body {
   background-color: #495562;
 }
 
@@ -18,4 +21,15 @@ p {
 .img-flex {
   background-image: linear-gradient(to top, rgba(73, 85, 98, .9));
   max-height: 500px;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .wrapper {
+    position: relative;
+  }
+
+  .wrapper-content {
+    position: absolute;
+  }
 }
