@@ -1,0 +1,21 @@
+html {
+  font-family: Georgia;
+  background-color: #495562;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+p {
+  color: #efefef;
+}
+
+.btn {
+  border-color: #97a49b;
+}
+
+.img-flex {
+  background-image: linear-gradient(to top, rgba(73, 85, 98, .9));
+  max-height: 500px;
+}
